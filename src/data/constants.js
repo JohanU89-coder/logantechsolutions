@@ -55,3 +55,29 @@ export const SOFTWARE_DATA = [
     image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80' 
   },
 ];
+
+// ... al final del archivo constants.js
+
+export const PROJECTS_DATA = [
+  {
+    id: 1,
+    title: 'E-commerce Moda Urbana',
+    category: 'Desarrollo Web',
+    image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=600',
+    link: '#'
+  },
+  {
+    id: 2,
+    title: 'App de Gestión Logística',
+    category: 'Aplicación Móvil',
+    image: 'https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&q=80&w=600',
+    link: '#'
+  },
+  {
+    id: 3,
+    title: 'Dashboard Financiero',
+    category: 'Software a Medida',
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600',
+    link: '#'
+  }
+];

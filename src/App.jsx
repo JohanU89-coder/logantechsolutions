@@ -14,6 +14,7 @@ import FloatingWhatsApp from './components/FloatingWhatsApp';
 import ScrollProgress from './components/ScrollProgress';
 import ScrollToTop from './components/ScrollToTop';
 import Preloader from './components/Preloader'; // <--- IMPORTAR EL PRELOADER NUEVO
+import Projects from './components/Projects';
 
 import { useTheme } from './hooks/useTheme';
 
@@ -41,6 +42,7 @@ const App = () => {
             <Hero />
             <Services />
             <SoftwareCatalog />
+            <Projects />
             <WhyChooseUs />
             <Testimonials />
             <Contact />
